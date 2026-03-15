@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
 import { motion } from "framer-motion";
 import { Github, Cpu, Zap, Wifi, Sun, Wrench, Mail, FileText, ChevronRight } from "lucide-react";
 
