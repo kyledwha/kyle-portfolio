@@ -1,7 +1,7 @@
 import { projects } from "../../data/projects"
 
 import { Cpu, Zap, Wifi, Sun, Wrench } from "lucide-react"
-
+import TelemetryPanel from "../../components/TelemetryPanel"
 const iconMap:any = {
 cpu: Cpu,
 zap: Zap,
@@ -58,6 +58,8 @@ Future Research
 <p className="text-gray-500">
 Future development will include additional telemetry, automation,
 and system scalability.
+
+<TelemetryPanel />
 </p>
 
 </div>
