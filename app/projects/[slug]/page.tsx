@@ -1,6 +1,6 @@
 import { projects } from "../../data/projects"
 
-export default function ProjectPage({params}) {
+export default function ProjectPage({ params }: { params: { slug: string } }) {
 
 const project = projects.find(p => p.slug === params.slug)
 
