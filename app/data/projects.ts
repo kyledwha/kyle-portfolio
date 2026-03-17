@@ -5,41 +5,41 @@ export const projects = [
 {
 slug:"bios-tester",
 title:"Raspberry Pi BIOS Stress Tester",
-icon:Cpu,
+icon:"cpu",
 image:"/projects/bios.jpg",
-summary:"Automated bare-metal endurance testing platform using relay power cycling and USB detection."
+summary:"Automated bare-metal endurance testing platform."
 },
 
 {
 slug:"energy-tower",
 title:"Off-Grid Energy Tower",
-icon:Zap,
+icon:"zap",
 image:"/projects/energy.jpg",
-summary:"Hybrid renewable infrastructure combining wind energy and gravitational water storage."
+summary:"Hybrid renewable infrastructure."
 },
 
 {
 slug:"gate-network",
 title:"Cellular Remote Gate Network",
-icon:Wifi,
+icon:"wifi",
 image:"/projects/gate.jpg",
-summary:"Remote infrastructure monitoring system using cellular IoT networking."
+summary:"Remote infrastructure monitoring."
 },
 
 {
 slug:"solar-controller",
 title:"Solar Monitoring Controller",
-icon:Sun,
+icon:"sun",
 image:"/projects/solar.jpg",
-summary:"Embedded telemetry system for monitoring solar power generation."
+summary:"Embedded telemetry system."
 },
 
 {
 slug:"ultrasonic-leveling",
 title:"Ultrasonic Bed Leveling",
-icon:Wrench,
+icon:"wrench",
 image:"/projects/printer.jpg",
-summary:"Experimental auto-leveling system for 3D printers using ultrasonic distance sensing."
+summary:"Experimental leveling system."
 }
 
 ]

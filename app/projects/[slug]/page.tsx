@@ -1,13 +1,22 @@
 import { projects } from "../../data/projects"
 
+import { Cpu, Zap, Wifi, Sun, Wrench } from "lucide-react"
+
+const iconMap:any = {
+cpu: Cpu,
+zap: Zap,
+wifi: Wifi,
+sun: Sun,
+wrench: Wrench
+}
+
 export default function ProjectPage({ params }: { params: { slug: string } }) {
 
 const project = projects.find(p => p.slug === params.slug)
 
 if(!project) return <div>Not found</div>
 
-const Icon = project.icon
-
+const Icon = iconMap[project.icon]
 return(
 
 <div className="min-h-screen bg-black text-white p-10">
