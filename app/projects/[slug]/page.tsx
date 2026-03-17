@@ -1,5 +1,5 @@
 import { projects } from "../../data/projects"
-
+import ScadaPanel from "../../components/ScadaPanel"
 import { Cpu, Zap, Wifi, Sun, Wrench } from "lucide-react"
 import TelemetryPanel from "../../components/TelemetryPanel"
 const iconMap:any = {
@@ -60,6 +60,7 @@ Future development will include additional telemetry, automation,
 and system scalability.
 
 <TelemetryPanel />
+<ScadaPanel />
 </p>
 
 </div>
